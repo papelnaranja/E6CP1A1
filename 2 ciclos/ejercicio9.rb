@@ -11,3 +11,9 @@
 </table>
 
 =end
+
+puts "<table>\n<tbody>\n<tr>"
+3.times do |i|
+	puts "<td> #{i} </td>"
+end
+puts "</tr>\n</tbody>\n</table>"
