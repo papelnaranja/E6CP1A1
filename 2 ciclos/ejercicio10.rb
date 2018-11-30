@@ -8,4 +8,7 @@ while ready == 0
   puts "Opción 3: blah"
   puts "Opción 4: Salir"
   opcion = gets.chomp.to_i
-ends
+  ready = 1 if opcion == 4 
+  puts "Las opciones son 1,2,3 o 4" if opcion != 3 || 2 || 1
+end
+

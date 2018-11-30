@@ -24,3 +24,13 @@ Generar el código para imprimir la siguiente tabla:
   <tbody>
  </table>
 =end
+
+puts "<table><tbody>"
+(0..3).each do |j|
+    puts "<tr>"
+    (1..4).each do |i|
+       puts "<td>#{4 * j + i}</td>"
+    end
+    puts "</tr>"
+end
+puts "</tbody></table>"
